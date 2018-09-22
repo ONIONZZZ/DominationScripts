@@ -7,6 +7,10 @@
 
 int     ratio = 3 // 1:3
 
+// FYI
+// I do not know if this even works
+// Merely part of a concept
+
 public Plugin myinfo = 
 {
     name = "JB - Auto Admin",

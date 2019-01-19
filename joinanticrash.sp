@@ -16,7 +16,7 @@ public Plugin myinfo = {
     url = "https://dominationservers.com"
 };
 
-public bool OnClientConnect(int client, char[] rejectmsg, int maxlen)
+public bool OnClientPutInServer(int client, char[] rejectmsg, int maxlen)
 {
     clientConnected[client] = clientConnected[client] + 1;
 
